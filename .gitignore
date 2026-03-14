@@ -47,3 +47,5 @@ result-*
 # Valgrind output
 vgcore.*
 core
+
+token
