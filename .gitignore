@@ -1,0 +1,49 @@
+# ----------------------------------------------------------------------
+#  .gitignore – Bank Management System
+# ----------------------------------------------------------------------
+
+# Compiled binary
+bank
+bank.exe
+
+# Build artifacts
+build/
+
+# Test binaries
+tests/test_user
+tests/test_account
+tests/test_transaction
+
+# Data files – excluded so real user data is never committed.
+# The data/ directory itself is tracked (kept via .gitkeep).
+data/*.csv
+data/*.dat
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.clangd/
+compile_commands.json
+
+# Nix
+result
+result-*
+.direnv/
+
+# Valgrind output
+vgcore.*
+core
